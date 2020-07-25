@@ -1,3 +1,9 @@
+'''
+a simple sunrise/sunset calculator
+source for formulae: National Oceanic and Atmospheric Administration (NOAA)
+https://www.esrl.noaa.gov/gmd/grad/solcalc/solareqns.PDF
+'''
+
 import sys
 import math
 
@@ -68,7 +74,7 @@ def main():
 	if len(sys.argv)>=4:
 		go(float(sys.argv[1]), float(sys.argv[2]), str(sys.argv[3]), float(sys.argv[4]))
 	else:
-		go(float(sys.argv[1]), float(sys.argv[2]), str(sys.argv[3])
+		go(float(sys.argv[1]), float(sys.argv[2]), str(sys.argv[3]))
 
 if __name__ == '__main__':
   main()
