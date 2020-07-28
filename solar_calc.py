@@ -71,7 +71,7 @@ def go(lat_d, lon_d, date, time_zone=0):
 	print_out(lat_d, lon_d, converted)
 
 def main():
-	if len(sys.argv)>=4:
+	if len(sys.argv)>4:
 		go(float(sys.argv[1]), float(sys.argv[2]), str(sys.argv[3]), float(sys.argv[4]))
 	else:
 		go(float(sys.argv[1]), float(sys.argv[2]), str(sys.argv[3]))
